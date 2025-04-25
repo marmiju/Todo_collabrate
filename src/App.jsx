@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h3>Adding box</h3>
+      <h3 className='heading'>Todo List</h3>
       <InputField></InputField>
       <Result></Result>
     </>

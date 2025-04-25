@@ -6,13 +6,15 @@ const Result = () => {
             <table >
                 <div>
                     <tr className="table">
-                        <th>Company</th>
+                        <th>#</th>
+                        <th>Content</th>
                         <th>Action</th>
                     </tr>
                 </div>
 
                 <div>
                     <tr className="table">
+                        <td>1</td>
                         <td>
                             Centro comercial Moctezuma
                         </td>
