@@ -6,24 +6,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>MAR miju</h1>
-      <div className="card">
-       
-        <p>
-         MY Name Is azizar rahman
-        </p>
-      </div>
-      <p className="read-the-docs">
-        My TeamMate Is NASIM ahmed
-      </p>
+      <h3>Adding box</h3>
     </>
   )
 }
