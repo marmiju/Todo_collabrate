@@ -5,7 +5,6 @@ export const InputField = () => {
     const [value, setValue] = useState('')
     const [list, setList] = useState([])
 
-    // Load existing todos from localStorage once when the component mounts
     useEffect(() => {
         const existing = JSON.parse(localStorage.getItem('todo')) || []
         setList(existing)
