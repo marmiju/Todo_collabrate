@@ -1,14 +1,14 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Result from './Components/Result/Result'
+import { InputField } from './Components/Inputtfield/InputField'
 
 function App() {
 
   return (
     <>
       <h3>Adding box</h3>
-      <Result></Result>
+      <InputField></InputField>
     </>
   )
 }
