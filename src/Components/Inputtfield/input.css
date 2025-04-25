@@ -6,9 +6,11 @@
     border-radius: 10px 10px;
     color: black;
     box-shadow: none;
+    width: 270px;
 }
 .indiv{
     display: flex;
+    justify-content: space-between;
     gap: 3px;
 }
 button{

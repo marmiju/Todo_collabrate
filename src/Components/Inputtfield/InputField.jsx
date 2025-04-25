@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import '../Inputtfield/input.css'
 
-export const InputField = () => {
+export const InputField = ({resultlist}) => {
     const [value, setValue] = useState('')
     const [list, setList] = useState([])
 
@@ -15,12 +15,12 @@ export const InputField = () => {
     }
 
     const submit = () => {
-        if (value.trim() === '') return // ignore empty input
+        if (value.trim() === '') return 
 
         const updatedList = [...list, value]
-        setList(updatedList) // update state
+        setList(updatedList) 
         localStorage.setItem('todo', JSON.stringify(updatedList)) // save to localStorage
-        setValue('') // clear input field
+        setValue('') 
     }
 
     return (
