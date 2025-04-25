@@ -10,7 +10,7 @@ function App() {
     <>
       <h3>Adding box</h3>
       <InputField></InputField>
-      <Result></Result>
+      {/* <Result></Result> */}
     </>
   )
 }
