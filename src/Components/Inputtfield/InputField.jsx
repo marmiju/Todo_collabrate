@@ -5,15 +5,18 @@ export const InputField = () => {
     const [value, setValue] = useState('')
 
     function handlechenge (e){
-         val = e.target.value
-         console.log(val)
+        const val = e.target.value
+         setValue(val)
 
     }
  
   return (
-    <div className='indiv'>
-        <input onChange={handlechenge} className='inputbox' type="text"/>
+    <div >
+        <div className='indiv'>
+            <input onChange={handlechenge} className='inputbox' type="text"/>
         <button>Add New</button>
+        </div>
+        <p>{value}</p>
     </div>
   )
 }
